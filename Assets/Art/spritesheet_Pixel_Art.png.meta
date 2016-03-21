@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 7d5193d9b9fbf0246adfd81b369671f2
+timeCreated: 1458501173
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Grass_Start
+    21300002: Grass_Middle
+    21300004: Grass_End
+    21300006: Grass_Single
+    21300008: Dirt
+    21300010: Dirt_Single
+    21300012: Grass_Start2
+    21300014: Grass_End2
+    21300016: Grass_Start3
+    21300018: Grass_End3
+    21300020: Grass_Triangle_Right
+    21300022: Grass_Triangle_Left
+    21300024: CheckPoint_Flag
+    21300026: 1_Icon
+    21300028: 2_Icon
+    21300030: 3_Icon
+    21300032: Spikes_2
+    21300034: 0_Icon
+    21300036: X_Icon
+    21300038: Coin_Gold
+    21300040: Mushroom_Brown_Short
+    21300042: Mushroom_Red_Short
+    21300044: Mushroom_White_Short
+    21300046: Mushroom_Red_Long
+    21300048: Mushroom_Brown_Long
+    21300050: Mushroom_White_Long
+    21300052: Temple_Ground_1
+    21300054: Temple_Ground_2
+    21300056: Temple_Top_1
+    21300058: Temple_Top_2
+    21300060: Temple_Middle_1
+    21300062: Temple_Middle_2
+    21300064: Temple_Middle_3
+    21300066: Temple_Top_3
+    21300068: Wurm_Green_Middle1
+    21300070: Wurm_Green_Middle2
+    21300072: Wurm_Green_Top
+    21300074: Wurm_Green_Top2
+    21300076: Wurm_Green_Head1
+    21300078: Wurm_Green_Head2
+    21300080: Wurm_Green_Middle3
+    21300082: Wurm_Green_Head3
+    21300084: Wurm_Green_Head4
+    21300086: spritesheet_Pixel_Art_0
+    21300088: Pearl
+    21300090: Grass_1
+    21300092: Cactus
+    21300094: Bush
+    21300096: Rock
+    21300098: Lava_Middle
+    21300100: Lava_Top1
+    21300102: Lava_Top2
+    21300104: Chain
+    21300106: Wheight1
+    21300108: Wheight2
+    21300110: Ladder
+    21300112: Ladder_Top
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Grass_Start
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 256
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Middle
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 256
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_End
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 256
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Single
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 256
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Dirt
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 233
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Dirt_Single
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 233
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Start2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 233
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_End2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 233
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Start3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 256
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_End3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 233
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Triangle_Right
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 256
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Triangle_Left
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 256
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: CheckPoint_Flag
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 95
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 1_Icon
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 215
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 2_Icon
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 215
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 3_Icon
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 215
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Spikes_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 302
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 0_Icon
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 215
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: X_Icon
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 216
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Coin_Gold
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 307
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mushroom_Brown_Short
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mushroom_Red_Short
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mushroom_White_Short
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 4
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mushroom_Red_Long
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 3
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mushroom_Brown_Long
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Mushroom_White_Long
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 26
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 26
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Top_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 26
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Top_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 26
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Middle_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 26
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Middle_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 26
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Middle_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 26
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Temple_Top_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 26
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Middle1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Middle2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Top
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 26
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Top2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 26
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Head1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 49
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Head2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 72
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Middle3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 187
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Head3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 210
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wurm_Green_Head4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 187
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spritesheet_Pixel_Art_0
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 210
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pearl
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 348
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 348
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Cactus
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 348
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Bush
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 325
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rock
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 325
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lava_Middle
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 325
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lava_Top1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 348
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Lava_Top2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 348
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chain
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 302
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wheight1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 302
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Wheight2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 302
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Ladder
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 279
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Ladder_Top
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 279
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
