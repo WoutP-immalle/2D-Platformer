@@ -56,6 +56,8 @@ public class LevelManager : MonoBehaviour {
         yield return new WaitForSeconds(respawnDelay);
         //player.GetComponent<Rigidbody2D>().gravityScale = gravityStore;
         player.transform.position = currentCheckpoint.transform.position;
+        // Val bug oplossing:
+        player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         player.knockbackCount = 0;
         // Na respawn kan de speler opnieuw bewegen en is hij terug zichtbaar
         player.enabled = true;
