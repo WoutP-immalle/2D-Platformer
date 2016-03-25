@@ -57,32 +57,22 @@ public class PlayerController : MonoBehaviour {
         anim.SetBool("Grounded", grounded);
             
 
-        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+        if (Input.GetButtonDown("Jump") && grounded)
         {
             //GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
             Jump();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && !doubleJumped && !grounded)
+        if (Input.GetButtonDown("Jump") && !doubleJumped && !grounded)
         {
             //GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
             Jump();
             doubleJumped = true;
         }
 
-        moveVelocity = 0f;
+        //moveVelocity = 0f;
 
-        if (Input.GetKey(KeyCode.D))
-        {
-            //GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-            moveVelocity = moveSpeed;
-        }
-
-        if (Input.GetKey(KeyCode.Q))
-        {
-            //GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-            moveVelocity = -moveSpeed;
-        }
+        moveVelocity = moveSpeed * Input.GetAxisRaw("Horizontal");
 
         if(knockbackCount <= 0)
         { 
@@ -112,13 +102,13 @@ public class PlayerController : MonoBehaviour {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetButtonDown("Fire1"))
         {
             Instantiate(ninjaStar, firePoint.position, firePoint.rotation);
             shotDelayCounter = shotDelay;
         }
 
-        if (Input.GetKey(KeyCode.Return))
+        if (Input.GetButton("Fire1"))
         {
             shotDelayCounter -= Time.deltaTime;
 
@@ -133,7 +123,7 @@ public class PlayerController : MonoBehaviour {
             anim.SetBool("Sword", false);
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetButtonDown("Fire2"))
         {
             anim.SetBool("Sword", true);
         }
