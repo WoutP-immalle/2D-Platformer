@@ -14,6 +14,8 @@ public class HealthManager : MonoBehaviour {
 
     public bool isDead;
 
+    private LifeManager lifeSystem;
+
     // Use this for initialization
     void Start() {
         text = GetComponent<Text>();
@@ -21,6 +23,9 @@ public class HealthManager : MonoBehaviour {
         playerHealth = maxPlayerHealth;
 
         levelManager = FindObjectOfType<LevelManager>();
+
+        lifeSystem = FindObjectOfType<LifeManager>();
+
         isDead = false;
     }
 
@@ -30,6 +35,7 @@ public class HealthManager : MonoBehaviour {
         {
             playerHealth = 0;
             levelManager.RespawnPlayer();
+            lifeSystem.TakeLife();
             isDead = true;
         }
 
