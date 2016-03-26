@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7d5193d9b9fbf0246adfd81b369671f2
-timeCreated: 1458501173
+timeCreated: 1459006973
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -61,6 +61,9 @@ TextureImporter:
     21300108: Wheight2
     21300110: Ladder
     21300112: Ladder_Top
+    21300114: Flying_Enemy1
+    21300116: Flying_enemy2
+    21300118: Flying_Enemy3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -730,6 +733,39 @@ TextureImporter:
         y: 279
         width: 21
         height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Flying_Enemy1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 30
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Flying_enemy2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 31
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Flying_Enemy3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 29
+        width: 21
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
