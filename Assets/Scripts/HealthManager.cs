@@ -8,7 +8,8 @@ public class HealthManager : MonoBehaviour {
 
     public static int playerHealth;
 
-    Text text;
+    //Text text;
+    public Slider healthBar;
 
     private LevelManager levelManager;
 
@@ -18,7 +19,8 @@ public class HealthManager : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        text = GetComponent<Text>();
+        //text = GetComponent<Text>();
+        healthBar = GetComponent<Slider>();
 
         playerHealth = maxPlayerHealth;
 
@@ -39,7 +41,13 @@ public class HealthManager : MonoBehaviour {
             isDead = true;
         }
 
-        text.text = "" + playerHealth;
+        if(playerHealth > maxPlayerHealth)
+        {
+            playerHealth = maxPlayerHealth;
+        }
+
+        //text.text = "" + playerHealth;
+        healthBar.value = playerHealth;
     }
 
     public static void HurtPlayer(int damageToGive)

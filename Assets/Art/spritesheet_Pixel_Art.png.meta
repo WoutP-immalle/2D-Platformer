@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7d5193d9b9fbf0246adfd81b369671f2
-timeCreated: 1459006973
+timeCreated: 1459270041
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -64,6 +64,7 @@ TextureImporter:
     21300114: Flying_Enemy1
     21300116: Flying_enemy2
     21300118: Flying_Enemy3
+    21300120: HealthPickup
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -766,6 +767,17 @@ TextureImporter:
         y: 29
         width: 21
         height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HealthPickup
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 258
+        width: 20
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
