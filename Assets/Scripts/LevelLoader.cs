@@ -8,6 +8,8 @@ public class LevelLoader : MonoBehaviour {
 
     public string levelToLoad;
 
+    public string levelTag;
+
 	// Use this for initialization
 	void Start () {
         playerInZone = false;
@@ -17,11 +19,17 @@ public class LevelLoader : MonoBehaviour {
 	void Update () {
         if (Input.GetAxisRaw("Vertical") > 0 && playerInZone)
         {
-            //gebruik Application.LoadLevelAsync(levelToLoad); om een laad scherm te maken
-            Application.LoadLevel(levelToLoad);
-
+            LoadLevel();
         } 
 	}
+
+    public void LoadLevel()
+    {
+        // 1 is unlocked, 0 is locked
+        PlayerPrefs.SetInt(levelTag, 1);
+        //gebruik Application.LoadLevelAsync(levelToLoad); om een laad scherm te maken
+        Application.LoadLevel(levelToLoad);
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {

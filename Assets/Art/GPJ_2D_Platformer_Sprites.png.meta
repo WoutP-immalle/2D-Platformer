@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 78f6b0ff71fda0b439409b72bd45ad89
-timeCreated: 1458393139
+timeCreated: 1459351096
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,6 +16,11 @@ TextureImporter:
     21300018: NinjaStar
     21300020: Player Sword
     21300022: Level Exit
+    21300024: Level_Select_1
+    21300026: Level_Select_2
+    21300028: Level_Select_3
+    21300030: Level_Select_4
+    21300032: Level_Select_Lock
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -190,6 +195,61 @@ TextureImporter:
         y: 48
         width: 19
         height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Level_Select_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Level_Select_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Level_Select_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Level_Select_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Level_Select_Lock
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 19
+        width: 7
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

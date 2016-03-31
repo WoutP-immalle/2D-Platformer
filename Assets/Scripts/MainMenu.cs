@@ -7,13 +7,25 @@ public class MainMenu : MonoBehaviour {
 
     public string levelSelect;
 
+    public string level1Tag;
+
     public void NewGame()
     {
+        PlayerPrefs.SetInt(level1Tag, 1);
+
+        PlayerPrefs.SetInt("PlayerLevelSelectPosition", 0);
         Application.LoadLevel(startLevel);
     }
 
     public void LevelSelect()
     {
+        PlayerPrefs.SetInt(level1Tag, 1);
+
+        if (!PlayerPrefs.HasKey("PlayerLevelSelectPosition"))
+        {
+            PlayerPrefs.SetInt("PlayerLevelSelectPosition", 0);
+        }
+
         Application.LoadLevel(levelSelect);
     }
 
