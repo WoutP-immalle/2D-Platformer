@@ -9,6 +9,8 @@ public class MainMenu : MonoBehaviour {
 
     public string level1Tag;
 
+    public string infoMenu;
+
     public void NewGame()
     {
         PlayerPrefs.SetInt(level1Tag, 1);
@@ -37,6 +39,6 @@ public class MainMenu : MonoBehaviour {
 
     public void Info()
     {
-
+        Application.LoadLevel(infoMenu);
     }
 }
