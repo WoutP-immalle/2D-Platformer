@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7d5193d9b9fbf0246adfd81b369671f2
-timeCreated: 1459698250
+timeCreated: 1459700667
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -84,6 +84,7 @@ TextureImporter:
     21300154: Grass_End3_GrayBiome
     21300156: Torch_Stick_2
     21300158: Torch_Stick_1
+    21300160: Key_Lock_Orange
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -1005,6 +1006,17 @@ TextureImporter:
         x: 380
         y: 95
         width: 3
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Key_Lock_Orange
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 187
+        width: 21
         height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
