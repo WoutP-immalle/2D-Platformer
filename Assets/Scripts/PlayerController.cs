@@ -32,6 +32,10 @@ public class PlayerController : MonoBehaviour {
     private float climbVelocity;
     private float gravityScore;
 
+    public bool inWater;
+    public float swimSpeed;
+    private float swimVelocity;
+    
 
     // Use this for initialization
     void Start()
@@ -138,6 +142,22 @@ public class PlayerController : MonoBehaviour {
         }
 
         if (!onLadder)
+        {
+            GetComponent<Rigidbody2D>().gravityScale = gravityScore;
+        }
+
+        if (inWater)
+        {
+            GetComponent<Rigidbody2D>().gravityScale = 0f;
+
+            swimVelocity = swimSpeed * Input.GetAxisRaw("Vertical");
+
+    
+            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, swimVelocity);
+
+        }
+
+        if (!inWater)
         {
             GetComponent<Rigidbody2D>().gravityScale = gravityScore;
         }

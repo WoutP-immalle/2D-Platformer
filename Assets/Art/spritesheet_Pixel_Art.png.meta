@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7d5193d9b9fbf0246adfd81b369671f2
-timeCreated: 1459270041
+timeCreated: 1459698250
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -65,6 +65,25 @@ TextureImporter:
     21300116: Flying_enemy2
     21300118: Flying_Enemy3
     21300120: HealthPickup
+    21300122: water
+    21300124: water_flow
+    21300126: Blue_Player
+    21300128: Fish
+    21300130: Torch_Right
+    21300132: Torch_Left
+    21300134: Door_Open_Middle
+    21300136: Door_Open_Top
+    21300138: Dirt_DirtBiome
+    21300140: Dirt_PurpleBiome
+    21300142: Sign_Right
+    21300144: Grass_Middle_Purple
+    21300146: Grass_Start3_Purple
+    21300148: Grass_End3_Purple
+    21300150: Grass_Middle_GrayBiome
+    21300152: Grass_Start3_GrayBiome
+    21300154: Grass_End3_GrayBiome
+    21300156: Torch_Stick_2
+    21300158: Torch_Stick_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -778,6 +797,215 @@ TextureImporter:
         y: 258
         width: 20
         height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: water
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 325
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: water_flow
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 348
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Blue_Player
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 325
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Fish
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 49
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torch_Right
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 120
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torch_Left
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 120
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Door_Open_Middle
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 256
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Door_Open_Top
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 256
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Dirt_DirtBiome
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 140
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Dirt_PurpleBiome
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 187
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sign_Right
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 164
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Middle_Purple
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 210
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Start3_Purple
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 210
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_End3_Purple
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 187
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Middle_GrayBiome
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 118
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_Start3_GrayBiome
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 118
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Grass_End3_GrayBiome
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 95
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torch_Stick_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 95
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Torch_Stick_1
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 95
+        width: 3
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
