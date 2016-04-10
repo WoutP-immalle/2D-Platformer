@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7d5193d9b9fbf0246adfd81b369671f2
-timeCreated: 1459700667
+timeCreated: 1459780470
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,6 +85,7 @@ TextureImporter:
     21300156: Torch_Stick_2
     21300158: Torch_Stick_1
     21300160: Key_Lock_Orange
+    21300162: Checkpoint_Flag_Down
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -1016,6 +1017,17 @@ TextureImporter:
         serializedVersion: 2
         x: 325
         y: 187
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Checkpoint_Flag_Down
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 118
         width: 21
         height: 21
       alignment: 0

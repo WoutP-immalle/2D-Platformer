@@ -5,6 +5,10 @@ public class Checkpoint : MonoBehaviour {
 
     public LevelManager levelManager;
 
+    public Sprite Checkpoint_Flag_Up;
+    public Sprite Checkpoint_Flag_Down;
+
+
     // Use this for initialization
     void Start()
     {
@@ -20,6 +24,12 @@ public class Checkpoint : MonoBehaviour {
         if (other.name == "Player")
         {
             levelManager.currentCheckpoint = gameObject;
+
+            if(this.gameObject.GetComponent<SpriteRenderer>().sprite == Checkpoint_Flag_Down)
+            {
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = Checkpoint_Flag_Up;
+            }
+
             Debug.Log("Activated Checkpoint " + transform.position);
         }
     }
