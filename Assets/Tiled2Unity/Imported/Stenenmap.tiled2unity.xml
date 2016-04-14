@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 14/04/2016 18:39:22-->
+<!--Last exported: 14/04/2016 19:00:51-->
 <Tiled2Unity version="1.0.4.3">
   <AssignMaterial mesh="mesh_0001" material="spritesheet" alphaColorKey="#ffffff" />
   <AssignMaterial mesh="mesh_0002" material="spritesheet" alphaColorKey="#ffffff" />
@@ -9,9 +9,163 @@
   <Prefab name="Stenenmap" numTilesWide="300" numTilesHigh="100" tileWidth="20" tileHeight="20" exportScale="0.05" mapWidthInPixels="6000" mapHeightInPixels="2000">
     <GameObject name="GROUND LAYER" x="0" y="0">
       <GameObject name="spritesheet" copy="mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>55,-6 53,-8 57,-8</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>30,-10 27,-13 33,-13</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>56,-23 54,-25 58,-25</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>21,-25 19,-27 23,-27</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>5,-24 2,-27 8,-27</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>81,-5 82,-6 83,-6 83,-5</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>81,-5 81,-28 82,-28 82,-6</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>67,-5 67,-6 73,-6 73,-5</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>76,-5 76,-6 77,-6 78,-5</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>77,-6 77,-24 78,-24 78,-5</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>60,-5 60,-6 66,-6 66,-5</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>16,-5 16,-6 21,-6 21,-5</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>58,-9 58,-8 57,-8 53,-8 52,-8 52,-9</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>25,-6 25,-7 27.25,-7 27.75,-7 29,-7 29,-6</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>27.25,-7 27.25,-11 27.75,-11 27.75,-7</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>28,-11 27.75,-11 27.25,-11 27,-11 27,-12 28,-12</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>61,-7 61,-8 62,-8 63,-7</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>62,-8 62,-16 63,-15 63,-7</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>70,-15 63,-15 62,-16 71,-16</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>70,-7 70,-15 71,-16 71,-8</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>70,-7 71,-8 72,-8 72,-7</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>19,-9 19,-10 23,-10 23,-9</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>38,-10 38,-11 50,-11 50,-10</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>37,-14 37,-13 33,-13 27,-13 15,-13 15,-14</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>11,-18 11,-19 12,-19 14,-19 13,-18</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>71,-20 71,-19 69,-19 14,-19 12,-19 12,-20</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>72,-19 72,-18 70,-18 69,-19 71,-19</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>8,-22 8,-23 11,-23 11,-22</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>59,-26 59,-25 58,-25 54,-25 53,-25 53,-26</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>13,-24 13,-25 15,-25 15,-24</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>42,-25 42,-26 46,-26 46,-25</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>33,-25 33,-26 35,-26 35,-25</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>24,-28 24,-27 23,-27 19,-27 18,-27 18,-28</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>30,-26 30,-27 31,-27 32,-26</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>31,-27 31,-31 32,-30 32,-26</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>36,-30 32,-30 31,-31 37,-31</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>36,-26 36,-30 37,-31 37,-27</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>36,-26 37,-27 38,-27 38,-26</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>63,-27 63,-28 64,-28 65,-28 64,-27</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>71,-29 71,-28 70,-28 65,-28 64,-28 64,-29</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>70,-28 71,-28 72,-28 72,-27 71,-27</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>14,-28 14,-27 8,-27 2,-27 1,-27 1,-28</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>75,-30 75,-31 84,-31 84,-30</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>11,-33 11,-34 12,-34 14,-34 13,-33</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>71,-35 71,-34 69,-34 14,-34 12,-34 12,-35</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>72,-34 72,-33 70,-33 69,-34 71,-34</Path>
+        </PolygonCollider2D>
+      </GameObject>
     </GameObject>
     <GameObject name="DECORATION LAYER" x="0" y="0">
       <GameObject name="spritesheet" copy="mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>43,-15 43,-14 42.75,-14 42.25,-14 42,-14 42,-15</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>42.75,-11 42.25,-11 42.25,-14 42.75,-14</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>48,-17 48,-16 47.75,-16 47.25,-16 47,-16 47,-17</Path>
+        </PolygonCollider2D>
+        <PolygonCollider2D>
+          <Path>47.75,-11 47.25,-11 47.25,-16 47.75,-16</Path>
+        </PolygonCollider2D>
+      </GameObject>
     </GameObject>
     <GameObject name="LAVA" x="0" y="0">
       <GameObject name="spritesheet" copy="mesh_0006" sortingLayerName="" sortingOrder="5" opacity="1" />
