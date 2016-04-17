@@ -17,6 +17,8 @@ public class LevelSelectManager : MonoBehaviour {
 
     private bool isPressed;
 
+    public bool touchMode;
+
     
 
     // Use this for initialization
@@ -85,7 +87,7 @@ public class LevelSelectManager : MonoBehaviour {
 
         if(Input.GetButtonDown("Fire1") || Input.GetButtonDown("Jump"))
         {
-            if (levelUnlocked[positionSelector])
+            if (levelUnlocked[positionSelector] && !touchMode)
             {
                 PlayerPrefs.SetInt("PlayerLevelSelectPosition", positionSelector);
                 Application.LoadLevel(levelName[positionSelector]);

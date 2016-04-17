@@ -59,7 +59,8 @@ public class PlayerController : MonoBehaviour {
         }
 
         anim.SetBool("Grounded", grounded);
-            
+
+#if UNITY_STANDALONE || UNITY_WEBPLAYER           
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
@@ -76,9 +77,12 @@ public class PlayerController : MonoBehaviour {
 
         //moveVelocity = 0f;
 
-        moveVelocity = moveSpeed * Input.GetAxisRaw("Horizontal");
+        //moveVelocity = moveSpeed * Input.GetAxisRaw("Horizontal");
+        Move(Input.GetAxisRaw("Horizontal"));
 
-        if(knockbackCount <= 0)
+#endif
+
+        if (knockbackCount <= 0)
         { 
             GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
         }  else
@@ -106,9 +110,12 @@ public class PlayerController : MonoBehaviour {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
 
+#if UNITY_STANDALONE || UNITY_WEBPLAYER
+
         if (Input.GetButtonDown("Fire1"))
         {
-            Instantiate(ninjaStar, firePoint.position, firePoint.rotation);
+            //Instantiate(ninjaStar, firePoint.position, firePoint.rotation);
+            FireStar();
             shotDelayCounter = shotDelay;
         }
 
@@ -119,18 +126,23 @@ public class PlayerController : MonoBehaviour {
             if (shotDelayCounter <= 0)
             {
                 shotDelayCounter = shotDelay;
+                FireStar();
             }
         }
 
         if (anim.GetBool("Sword"))
         {
-            anim.SetBool("Sword", false);
+            //anim.SetBool("Sword", false);
+            ResetSword();
         }
 
         if (Input.GetButtonDown("Fire2"))
         {
-            anim.SetBool("Sword", true);
+            //anim.SetBool("Sword", true);
+            Sword();
         }
+
+#endif
 
         if (onLadder)
         {
@@ -163,9 +175,45 @@ public class PlayerController : MonoBehaviour {
         }
     }
 
+
+    public void Move(float moveInput)
+    {
+        moveVelocity = moveSpeed * moveInput;
+    }
+
+    public void FireStar()
+    {
+        Instantiate(ninjaStar, firePoint.position, firePoint.rotation);
+    }
+
+    public void Sword()
+    {
+        anim.SetBool("Sword", true);
+    }
+
+    public void ResetSword()
+    {
+        anim.SetBool("Sword", false);
+    }
+
     public void Jump()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+        //GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+        if (grounded)
+        {
+            //GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+            //Jump();
+            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+
+        }
+
+        if (!doubleJumped && !grounded)
+        {
+            //GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+            //Jump();
+            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
+            doubleJumped = true;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D other)

@@ -4,7 +4,7 @@ using System.Collections;
 
 public class LevelLoader : MonoBehaviour {
 
-    private bool playerInZone;
+    public bool playerInZone;
 
     public string levelToLoad;
 
