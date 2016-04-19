@@ -48,6 +48,7 @@ public class LevelManager : MonoBehaviour {
         player.enabled = false;
         player.GetComponent<Renderer>().enabled = false;
         camera.isFollowing = false;
+        
         //gravityStore = player.GetComponent<Rigidbody2D>().gravityScale;
         //player.GetComponent<Rigidbody2D>().gravityScale = 0f;
         //player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
@@ -58,7 +59,7 @@ public class LevelManager : MonoBehaviour {
         player.transform.position = currentCheckpoint.transform.position;
         // Val bug oplossing:
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-        player.knockbackCount = 0;
+        player.knockbackCount = 0f;
         // Na respawn kan de speler opnieuw bewegen en is hij terug zichtbaar
         player.enabled = true;
         player.GetComponent<Renderer>().enabled = true;
