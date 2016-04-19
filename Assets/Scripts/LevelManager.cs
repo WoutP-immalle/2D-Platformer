@@ -45,6 +45,9 @@ public class LevelManager : MonoBehaviour {
     {
         Instantiate(deathParticle, player.transform.position, player.transform.rotation);
         // De speler wordt kan niet meer bewegen en wordt onzichtbaar
+        // Val bug oplossing:
+        player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+
         player.enabled = false;
         player.GetComponent<Renderer>().enabled = false;
         camera.isFollowing = false;
@@ -57,8 +60,6 @@ public class LevelManager : MonoBehaviour {
         yield return new WaitForSeconds(respawnDelay);
         //player.GetComponent<Rigidbody2D>().gravityScale = gravityStore;
         player.transform.position = currentCheckpoint.transform.position;
-        // Val bug oplossing:
-        player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         player.knockbackCount = 0f;
         // Na respawn kan de speler opnieuw bewegen en is hij terug zichtbaar
         player.enabled = true;
