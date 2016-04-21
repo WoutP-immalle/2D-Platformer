@@ -8,6 +8,8 @@ public class Checkpoint : MonoBehaviour {
     public Sprite Checkpoint_Flag_Up;
     public Sprite Checkpoint_Flag_Down;
 
+    public AudioSource spawnSoundEffect;
+
 
     // Use this for initialization
     void Start()
@@ -24,6 +26,8 @@ public class Checkpoint : MonoBehaviour {
         if (other.name == "Player")
         {
             levelManager.currentCheckpoint = gameObject;
+
+            spawnSoundEffect.Play();
 
             if(this.gameObject.GetComponent<SpriteRenderer>().sprite == Checkpoint_Flag_Down)
             {

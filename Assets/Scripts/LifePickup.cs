@@ -4,9 +4,10 @@ using System.Collections;
 public class LifePickup : MonoBehaviour {
 
     private LifeManager lifeSystem;
+    public AudioSource pickupSoundEffect;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         lifeSystem = FindObjectOfType<LifeManager>();
 	}
 
@@ -17,5 +18,7 @@ public class LifePickup : MonoBehaviour {
             lifeSystem.GiveLife();
             Destroy(gameObject);
         }
+
+        pickupSoundEffect.Play();
     }
 }

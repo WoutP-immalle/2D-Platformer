@@ -59,6 +59,7 @@ public class LevelManager : MonoBehaviour {
         Debug.Log("Player Respawn");
         yield return new WaitForSeconds(respawnDelay);
         //player.GetComponent<Rigidbody2D>().gravityScale = gravityStore;
+        player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         player.transform.position = currentCheckpoint.transform.position;
         player.knockbackCount = 0f;
         // Na respawn kan de speler opnieuw bewegen en is hij terug zichtbaar

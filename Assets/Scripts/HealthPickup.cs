@@ -5,6 +5,8 @@ public class HealthPickup : MonoBehaviour {
 
     public int healthToGive;
 
+    public AudioSource pickupSoundEffect;
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.GetComponent<PlayerController>() == null)
@@ -13,7 +15,7 @@ public class HealthPickup : MonoBehaviour {
         }
 
         HealthManager.HurtPlayer(-healthToGive);
-
+        pickupSoundEffect.Play();
         Destroy(gameObject);
     }
 
